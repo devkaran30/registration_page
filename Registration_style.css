@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.clg_name{
+    color: blue;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.Hero_section{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+.signin_box{
+    /* background-color: #f2f2f2; */
+    background-color: white;
+    border: none;
+    border-top: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    box-shadow:0px 0px 3px grey;
+    padding: 40px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.736); 
+}
+
+input::placeholder{
+    font-size: 12px;
+}
+
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button{
+    border: 1px solid;
+    padding: 7px;
+}
+
+.box-logo{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 50%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.login_but{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.s1{
+        display: flex;
+        justify-content: center;
+}
+.condition{
+    font-weight: lighter;
+    font-size: 10px;
+}
+.info{
+    color: blue;
+    font-size: 13px;
+}
+.login{
+    background-color: #4285f4;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    color: white;
+}
+.reg{
+    background-color: #34A853;
+    color: white;
+}
+.reset{
+    background-color: #ffffff;
+    color: #2c3881;
+}
